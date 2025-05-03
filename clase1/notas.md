@@ -41,3 +41,13 @@
 
 <elemento atributo="valor">contenido</elemento>
 
+## Vínculos o enlaces
+> Para insertar un vínculo en HTML 
+> utilizamos el elemento "a"
+
+<a href="url" target="_blank">
+    Texto
+</a>
+
+> El atributo Target se utiliza para abrir un enlace en una nueva pestaña
+
