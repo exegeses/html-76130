@@ -1,0 +1,24 @@
+body{
+    width: 768px;
+    margin: auto;
+    background-color: hsl(100, 30%, 6%);
+    color: hsl(100, 30%, 80%);
+    font-family: sans-serif;
+    font-size: 32px;
+}
+h1{
+    font-weight: normal;
+}
+
+p{
+    color: hsl(100, 50%, 60%);
+}
+
+#destacado{
+    color: hsl(100, 70%, 90%);
+    background-color: hsl(100, 20%, 16%);
+}
+
+.amarillo{
+    color: hsl(60, 90%, 51%);
+}
