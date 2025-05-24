@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* selector universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+    background-color: hsl(240, 35%, 8%);
+    color: white;
+    font-family: "Figtree", sans-serif;
+}
+
+header{
+    height: 104px;
+    background-color: hsl(243, 38%, 12%);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    header nav a{
+        margin: 12px;
+        color: white;
+        text-decoration: none; /* quitar subrayado */
+        font-size: 20px;
+    }
+
+main{
+    min-height: 700px;
+    background-color: hsl(240, 37%, 8%);
+}
+
+/* hero-banner */
+    #hero-banner{
+        height: 512px;
+        background-image: url(../imgs/hero.jpg);
+        display: flex;
+        align-items: center;
+    }
+        #hero-banner h1{
+            width: 552px;
+            height: 116px;
+            margin-left: 104px;
+            padding: 10px 16px;
+            background-color: hsla(240, 37%, 8%, 50%);
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        #ejemplos{
+            margin-top: 56px;
+            padding: 24px 0px;
+            height: 606px;
+
+            display: flex;
+            justify-content: space-between;
+        }
+            #ejemplos article{
+                width: 384px;
+                padding: 16px;
+                background-color: #06060E;
+            }
+
+
+footer{
+    height: 216px;
+    background-color: hsl(240, 40%, 4%);
+}
