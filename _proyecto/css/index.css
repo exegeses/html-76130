@@ -15,6 +15,10 @@ body{
     font-family: "Figtree", sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     height: 104px;
     background-color: hsl(243, 38%, 12%);
@@ -24,7 +28,8 @@ header{
     align-items: center;
 }
     header nav a{
-        margin: 12px;
+        /*margin: 12px;*/
+        padding: 12px;
         color: white;
         text-decoration: none; /* quitar subrayado */
         font-size: 20px;
@@ -65,9 +70,29 @@ main{
                 padding: 16px;
                 background-color: #06060E;
             }
+                #ejemplos article h2{
+                    margin: 16px 0px;
+                    font-weight: 600;
+                }
 
 
 footer{
     height: 216px;
+    margin-top: 56px;
+    padding: 16px;
     background-color: hsl(240, 40%, 4%);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+    footer img{
+        width: 152px;
+    }
+        footer nav a{
+            padding: 16px;
+        }
+            footer nav a img{
+                width: 32px;
+                /* margin: 16px; */
+            }
